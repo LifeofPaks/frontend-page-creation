@@ -9,7 +9,7 @@ const getDay = date.getDay();
 
 console.log(date)
 
-let currentTime = date.toJSON();
+let currentTime = date.getUTCMilliseconds();
 
 
 let currentDayOfTheWeek 

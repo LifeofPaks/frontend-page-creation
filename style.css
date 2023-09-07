@@ -11,14 +11,21 @@ body{
     justify-content: center;
     min-height: 100vh;
     color: #333;
+    background: #f2ecec;
 }
 
 section{
     width: 300px;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 img{
-    width: 200px
+    width: 100%;
+    border-radius: .5rem;
 }
 
 h1{
@@ -46,6 +53,6 @@ a{
     display: block;
     font-size: 14px;
     color: #555;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
